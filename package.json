@@ -1,0 +1,29 @@
+{
+	"name": "chatty-starting-code",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"typescript": "^5.0.0",
+		"vite": "^4.2.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-vercel": "^2.4.1",
+		"daisyui": "^2.51.5",
+		"gpt3-tokenizer": "^1.1.5",
+		"openai": "^3.2.1",
+		"sse.js": "^0.6.1",
+		"tailwindcss": "^3.3.1"
+	}
+}
